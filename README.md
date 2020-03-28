@@ -2,9 +2,11 @@
 
 Para rodar o repositório localmente, você precisa ter as seguintes depenências:
 
->> ruby
->> bundler
->> jekyll
+```
+ruby
+bundler
+jekyll
+```
 
 # Rodando localmente
 
