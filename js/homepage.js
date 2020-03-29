@@ -2,12 +2,6 @@ const firstStep = document.querySelector('.first-step');
 const secondStep = document.querySelector('.second-step');
 const thirdStep = document.querySelector('.third-step');
 
-const navEvent = (bgColor) => {
-    if (bgColor) {
-        document.querySelector('#navbar').style.color = bgColor;
-    }
-}
-
 const toggleElement = (btnElement, closeElement, openElement) => {
     btnElement.addEventListener("click", () => {
         closeElement.querySelector('.container').style.opacity = 0;
