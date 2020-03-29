@@ -20,6 +20,7 @@ html, body { height: 100%; }
 body {
     background-color: var(--bg-light);
     margin: 0;
+    font-family: Roboto, sans-serif;
 }
 
 ul { list-style: none; }
@@ -31,7 +32,12 @@ a, a:visited {
 
 .padding-default { padding: 30px 20px; }
 
-.btn-link { background-color: transparent; }
+.btn-link { 
+    background-color: transparent;
+    color: var(--color-dark);
+    padding: 8px 0;
+    margin: 4px 0;
+}
 
 .d-block { display: block; }
 
@@ -39,16 +45,27 @@ a, a:visited {
 
 nav {
     width: 100%;
-    padding: 10px 20px;
     position: fixed;
     z-index: 100;
+}
+
+nav .nav-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 20px;
     display: flex;
     flex-direction: row;
+    margin: auto;
 }
 
 nav .nav-home, nav .nav-menu {
     width: 100%;
     padding: 20px 0;
+}
+
+nav .nav-menu {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 nav .nav-home a.link-title {
@@ -58,3 +75,36 @@ nav .nav-home a.link-title {
 nav .nav-menu-list {
     display: inline-block;
 }
+
+.arrow-right {
+    background-image: url('../assets/arrow-right.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+.arrow-left {
+    background-image: url('../assets/arrow-left.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+.logo-social {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.logo-github { background-image: url('../assets/logo-github.svg'); }
+.logo-linkedin { background-image: url('../assets/logo-linkedin.svg'); }

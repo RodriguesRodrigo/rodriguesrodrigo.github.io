@@ -20,14 +20,23 @@
 
     <body>
         <nav id="navbar">
-            <div class="nav-home">
-                <a class="link-title" href="{{ site.baseurl }}/" title="Home page">RR</a>
+            <div class="nav-container">
+                <div class="nav-home">
+                    <a class="link-title" href="{{ site.baseurl }}/" title="Home page">HOME</a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-menu-list">
+                        <a class="link-default" href="https://github.com/RodriguesRodrigo" title="github">
+                            <span class="logo-social logo-github"></span>
+                        </a>
+                    </li>
+                    <li class="nav-menu-list">
+                        <a class="link-default" href="https://www.linkedin.com/in/rodrigo-rodrigues-615574140/" title="linkedin">
+                            <span class="logo-social logo-linkedin"></span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <ul class="nav-menu">
-                <li class="nav-menu-list">
-                    <a class="link-default" href="{{ site.baseurl }}/about" title="About me">ABOUT</a>
-                </li>
-            </ul>
         </nav>
         {{ content }}
         <script src="{{ site.baseurl }}/js/{{ page.custom_js }}"></script>
