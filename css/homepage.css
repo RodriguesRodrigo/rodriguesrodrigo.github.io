@@ -1,0 +1,37 @@
+.first-step, .second-step, .third-step { transition: 1s ease; }
+
+.first-step { background-color: #F22E2E; }
+.second-step { background-color: #F2F046; }
+.third-step { background-color: #169DF2; }
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    display: inline-block;
+    overflow: hidden;
+    opacity: 1;
+    transition: opacity .5s ease;
+}
+
+.header {
+    width: 100%;
+    padding: 130px 20px 52px;
+}
+
+.text-title {
+    color: var(--color-dark);
+    font-weight: normal;
+}
+
+.on {
+    height: 100%;
+    overflow: visible;
+    z-index: 90;
+}
+
+.off {
+    height: 0;
+    overflow: hidden;
+    z-index: 0;
+}
