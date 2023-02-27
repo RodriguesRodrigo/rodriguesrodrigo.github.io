@@ -1,24 +1,30 @@
-Um programador que ama café e não perde uma oportunidade de usar o terminal. Me formei em Sistemas para Internet em 2020, atualmente busco me especializar na área de tecnologia, me aprofundando na linguagem Python.
+I'm a software developer wos. I currently work with python and javascript languages. I really enjoy studying software architecture and infrastructure.
 
-# Experiências profissionais
+# Work experiences
 
-- Canopus informática - Desenvolvedor Web (2018 - 2021)
+- TelessaúdeRS UFRGS - Software Developer (2021)
+- Canopus informática - Software Developer (2018 - 2021)
 
-# Tecnologias
+# Technologies
 
-- Git
 - CSS
+- Django
 - Docker
+- FastAPI
+- Flask
+- Git
 - HTML
 - JavaScript
 - Kubernetes
+- Linux
 - MySQL
 - Postgres
 - Python
-- Redis
 - Rabbitmq
+- Redis
 
-# Formação acadêmica
+# Academic background
 
-- Tecnólogo em Sistemas para Internet (2017 - 2020)
-- Curso de inglês (Cursando atualmente - nível básico)
+- English course (currently)
+- Technologist in Internet Systems (2017 - 2020)
+- IT Course (2015 - 2017)
